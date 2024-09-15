@@ -1,0 +1,39 @@
+My code with github copilot
+#Each one of these is a column title in the dataset
+Data_set:
+columns:
+  - customer_id
+  - customer_age
+  - customer_income
+  - home_ownership
+  - employment_duration
+  - loan_intent
+  - loan_grade
+  - loan_amnt
+  - loan_int_rate
+  - term_years
+  - historical_default
+  - cred_hist_length
+
+customer_id: Unique identifier for each customer
+customer_age: Age of the customer
+customer_income: Annual income of the customer
+home_ownership: Home ownership status (e.g., RENT, OWN, MORTGAGE)
+employment_duration: Duration of employment in months
+loan_intent: Purpose of the loan (e.g., PERSONAL, EDUCATION, MEDICAL, VENTURE)
+loan_grade: Grade assigned to the loan
+loan_amnt: Loan amount requested
+loan_int_rate: Interest rate of the loan
+term_years: Loan term in years
+historical_default: Indicates if the customer has a history of default (Y/N)
+cred_hist_length: Length of the customer's credit history in years
+
+columns_count: 12
+
+total_customers: $PLACEHOLDER
+
+#This is the chatLog I had with github copilot: 
+write code for the amount of columns 
+#This wrote the section labeled columns: then proceeded to list all 12 columns
+how many columns are there
+#This proceeded to write the number of columns and gave me columns_count: 12 as in the total number of columns were 12.
