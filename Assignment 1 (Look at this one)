@@ -14,7 +14,7 @@ columns:
   - term_years
   - historical_default
   - cred_hist_length
-
+# This was the data I imported from the website given to me by my teacher that even identified the unique columns
 customer_id: Unique identifier for each customer
 customer_age: Age of the customer
 customer_income: Annual income of the customer
@@ -30,10 +30,13 @@ cred_hist_length: Length of the customer's credit history in years
 
 columns_count: 12
 
-total_customers: $PLACEHOLDER
+total_customers: 1000
+
 
 #This is the chatLog I had with github copilot: 
 write code for the amount of columns 
 #This wrote the section labeled columns: then proceeded to list all 12 columns
 how many columns are there
 #This proceeded to write the number of columns and gave me columns_count: 12 as in the total number of columns were 12.
+how many total customers are there.
+#This proceeded to count and generate the number 1000 that counted the total number of customers given the data above
